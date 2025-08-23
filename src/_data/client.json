@@ -1,15 +1,15 @@
 {
-  "name": "Junk Force Michigan",
-  "email": "mike@junkforcemichigan.com",
-  "phone": "313-444-9540",
-  "phoneFormatted": "(313) 444-9540",
+  "name": "Michigan Fencing Solutions",
+  "email": "Richardsturd@gmail.com",
+  "phone": "269-615-8646",
+  "phoneFormatted": "(269) 615-8646",
   "address": {
-    "lineOne": "Berkley, MI, United States",
+    "lineOne": "Kalamazoo, MI 49024, United States",
     "lineTwo": "",
-    "city": "Berkley",
-    "county": "Oakland County",
-    "postcode": "",
-    "mapLink": "https://maps.app.goo.gl/f6bDJewmQSinmjRVA"
+    "city": "Kalamazoo",
+    "county": "Kalamazoo County",
+    "postcode": "49024",
+    "mapLink": "https://maps.app.goo.gl/Xj2fBuK1cVarKzdF6"
   },
-  "domain": "https://junkforcemichigan.com/"
+  "domain": ""
 }

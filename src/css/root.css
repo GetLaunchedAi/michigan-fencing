@@ -4,12 +4,12 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #F58220; /* Bold Orange */
-    --primaryShade: #FFAA52; /* Warm Amber Glow */
-    --primaryDark: #C45E00; /* Deep Burnt Orange */
-    --bodyTextColor: #4e4b66;
-    --bodyTextColorWhite: #fafbfc;
-    --headerColor: #1a1a1a;
+    --primary: #000000; /* Bold Black */
+    --primaryShade: #4F4F4F; /* Medium Charcoal */
+    --primaryDark: #1C1C1C; /* Deep Matte Black */
+    --bodyTextColor: #4E4B66; /* Neutral Slate Gray */
+    --bodyTextColorWhite: #FAFBFC; /* Soft White */
+    --headerColor: #1A1A1A; /* Strong Dark Gray */
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
