@@ -11,10 +11,18 @@
     /* Prevents overflow from the image going off screen */
     overflow: hidden;
   }
-  #gallery .cs-container {
+  #gallery .cs-container .before-and-after-container {
     width: 100%;
     max-width: 82.625em;
     margin: auto;
+  }
+  #gallery .cs-container .before-and-after-container img{
+    width: 40%;
+    height: auto;
+  }
+  .cs-container .title {
+    font-size: 2rem;
+    padding-bottom: 4rem;
   }
   #gallery .cs-image-group {
     /* used rem so it doesn't scale with the font size of on parent */
@@ -82,6 +90,18 @@
   #gallery .cs-row-3 .cs-picture-3 {
     width: 26.25em;
     height: 39.3125em;
+  }
+}
+@media screen and (min-width:48rem) {
+  .cs-container .title {
+    font-size: 4rem;
+    padding-bottom: 3rem;
+  }
+}
+@media screen and (min-width:64rem) {
+  .cs-container .title {
+    font-size: 6rem;
+    padding-bottom: 4rem;
   }
 }
 /*-- -------------------------- -->
