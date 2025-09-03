@@ -1,6 +1,7 @@
 ---
 layout: "base.html"
-description: "Michigan Fencing Solutions delivers expert fencing projects across Michigan. From residential privacy fences to commercial security installations, our portfolio showcases quality craftsmanship and reliable service."
+description: "Michigan Fencing Solutions delivers expert fencing projects across Michigan. From residential privacy
+fences to commercial security installations, our portfolio showcases quality craftsmanship and reliable service."
 metaTitle: "Michigan Fencing Solutions - Fencing Projects in Michigan"
 tagTitle: "Projects"
 preloadImg: "/images/landing.png"
@@ -25,28 +26,77 @@ eleventyNavigation:
 <!--                   Gallery                    -->
 <!-- ============================================ -->
 
-<section id="gallery">
+<section id="gallery-1897">
   <div class="cs-container">
-    <h2 class="title">Before and After</h2>
-      <div class="before-and-after-container">
-        {% image './src/images/before-and-after/fencebefore.jpg', 'fence installation projects', '',
-      'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
-        {% image './src/images/before-and-after/fenceafter.jpg', 'fence installation projects', '',
-      'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+    <div class="cs-content">
+      <div class="cs-flex">
+        <span class="cs-topper">Our Gallery</span>
+        <h2 class="cs-title">Before vs. After: Proof of Our Craft.</h2>
       </div>
-      <div class="before-and-after-container">
-        {% image './src/images/before-and-after/deckbefore.jpg', 'fence installation projects', '',
-      'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
-        {% image './src/images/before-and-after/deckafter.jpg', 'fence installation projects', '',
-      'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+    </div>
+    <!--Gallery-->
+    <div class="cs-gallery">
+      <div class="cs-item">
+        <div class="cs-picture-group">
+          <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/images/before-and-after/fencebefore.jpg">
+            <source media="(min-width: 601px)" srcset="/images/before-and-after/fencebefore.jpg">
+            <img loading="lazy" decoding="async" src="/images/before-and-after/fencebefore.jpg" alt="gallery"
+              width="305" height="400">
+          </picture>
+          <span class="cs-tag">Before</span>
+        </div>
+        <div class="cs-picture-group">
+          <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/images/before-and-after/fenceafter.jpg">
+            <source media="(min-width: 601px)" srcset="/images/before-and-after/fenceafter.jpg">
+            <img loading="lazy" decoding="async" src="/images/before-and-after/fenceafter.jpg" alt="gallery" width="305"
+              height="400">
+          </picture>
+          <span class="cs-tag">After</span>
+        </div>
       </div>
-      <div class="before-and-after-container">
-        {% image './src/images/before-and-after/floorbefore.jpg', 'fence installation projects', '',
-      'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
-        {% image './src/images/before-and-after/floorafter.jpg', 'fence installation projects', '',
-      'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+      <div class="cs-item">
+        <div class="cs-picture-group">
+          <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/images/before-and-after/deckbefore.jpg">
+            <source media="(min-width: 601px)" srcset="/images/before-and-after/deckbefore.jpg">
+            <img loading="lazy" decoding="async" src="/images/before-and-after/deckbefore.jpg" alt="gallery" width="305"
+              height="400">
+          </picture>
+          <span class="cs-tag">Before</span>
+        </div>
+        <div class="cs-picture-group">
+          <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/images/before-and-after/deckafter.jpg">
+            <source media="(min-width: 601px)" srcset="/images/before-and-after/deckafter.jpg">
+            <img loading="lazy" decoding="async" src="/images/before-and-after/deckafter.jpg" alt="gallery" width="305"
+              height="400">
+          </picture>
+          <span class="cs-tag">After</span>
+        </div>
       </div>
-    <a href="/contact" class="button-solid">Get Free Quote</a>
+      <div class="cs-item">
+        <div class="cs-picture-group">
+          <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/images/before-and-after/floorbefore.jpg">
+            <source media="(min-width: 601px)" srcset="/images/before-and-after/floorbefore.jpg">
+            <img loading="lazy" decoding="async" src="/images/before-and-after/floorbefore.jpg" alt="gallery"
+              width="305" height="400">
+          </picture>
+          <span class="cs-tag">Before</span>
+        </div>
+        <div class="cs-picture-group">
+          <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/images/before-and-after/floorafter.jpg">
+            <source media="(min-width: 601px)" srcset="/images/before-and-after/floorafter.jpg">
+            <img loading="lazy" decoding="async" src="/images/before-and-after/floorafter.jpg" alt="gallery" width="305"
+              height="400">
+          </picture>
+          <span class="cs-tag">After</span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -61,7 +111,8 @@ eleventyNavigation:
       Start Your Project Today
     </h2>
     <p>
-      From simple backyard fences to complex commercial installations, Michigan Fencing Solutions delivers durable, attractive fencing tailored to your needs. Contact us today for a free estimate and quality you can trust.
+      From simple backyard fences to complex commercial installations, Michigan Fencing Solutions delivers durable,
+      attractive fencing tailored to your needs. Contact us today for a free estimate and quality you can trust.
     </p>
     <a href="/contact.html" class="button-solid">Free Estimate</a>
   </div>
